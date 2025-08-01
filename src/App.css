@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef5ff;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #ff3366;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filtros input,
+.filtros select {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.tarjeta {
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 1.2rem;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta h2 {
+  margin: 0.3rem 0;
+  font-size: 1.3rem;
+}
+
+.tarjeta p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.tipo {
+  display: inline-block;
+  margin: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* Colores por tipo */
+.tipo.Planta { background-color: #78C850; }
+.tipo.Fuego { background-color: #F08030; }
+.tipo.Agua { background-color: #6890F0; }
+.tipo.Eléctrico { background-color: #F8D030; color: black; }
+.tipo.Hielo { background-color: #98D8D8; color: black; }
+.tipo.Lucha { background-color: #C03028; }
+.tipo.Veneno { background-color: #A040A0; }
+.tipo.Tierra { background-color: #E0C068; color: black; }
+.tipo.Volador { background-color: #A890F0; }
+.tipo.Psíquico { background-color: #F85888; }
+.tipo.Bicho { background-color: #A8B820; }
+.tipo.Roca { background-color: #B8A038; }
+.tipo.Fantasma { background-color: #705898; }
+.tipo.Dragón { background-color: #7038F8; }
+.tipo.Siniestro { background-color: #705848; }
+.tipo.Acero { background-color: #B8B8D0; color: black; }
+.tipo.Hada { background-color: #EE99AC; color: black; }
+.tipo.Normal { background-color: #A8A878; color: black; }
+
