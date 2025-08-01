@@ -83,7 +83,7 @@ function App() {
             <h2>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
             <img src={pokemon.sprites.front_default} alt={pokemon.name} />
             <p><strong>Tipo:</strong> {pokemon.types.map(t => (
-              <span key={t.type.name} className={`tipo ${traduccionesTipos[t.type.name]}`}>
+              <span key={t.type.name} className={`tipo ${t.type.name}`}>
                 {traduccionesTipos[t.type.name]}
               </span>
             ))}</p>
@@ -98,4 +98,5 @@ function App() {
 }
 
 export default App;
+
 
